@@ -10,7 +10,7 @@
 - Basic python functions, syntax etc.
 
 ## Pandas
-Note: the pandas section comes from the great material created by ayush1997. See the origial at:  https://github.com/ayush1997/
+Note: the pandas section comes from the great material created by ayush1997. See the original at:  https://github.com/ayush1997/
 
 ### Pandas-0.ipynb
 
@@ -49,4 +49,4 @@ Note: the pandas section comes from the great material created by ayush1997. See
     
 ### RandomForest.ipynb
 
-- Uses ranoom forest on the classic titanic dataset. Includes a gridsearch cross validation to identify the optimal tuning parameters.
+- Uses random forest on the classic titanic dataset. Includes a gridsearch cross validation to identify the optimal tuning parameters.
