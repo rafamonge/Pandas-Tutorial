@@ -10,6 +10,7 @@
 - Basic python functions, syntax etc.
 
 ## Pandas
+Note: the pandas section comes from the great material created by ayush1997. See the origial at:  https://github.com/ayush1997/
 
 ### Pandas-0.ipynb
 
