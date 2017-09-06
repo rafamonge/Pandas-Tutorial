@@ -1,21 +1,51 @@
-#Introduction to Pandas
-The following Ipython notebooks contain the code for the snippets used in [these](http://slides.com/ayush1997/deck-1#/) slides used
-at a Talk on "Introduction To Pandas" @PyData Delhi.
+# Introduction to machine learning in python
 
-Link to talk : [PyData Delhi](https://www.youtube.com/watch?v=q2oKrnJst-A&feature=youtu.be) 
+- Introduction to python slides:  http://slides.com/rafaelmongemontenegro/python#/
+- Introduction to pandas slides: http://slides.com/rafaelmongemontenegro/pandas#/
 
+## Python 
 
-## Pandas-0.ipynb
-    DataStructures in Pandas
+### python.ipynb
+
+- Basic python functions, syntax etc.
+
+## Pandas
+
+### Pandas-0.ipynb
+
+- DataStructures in Pandas
     
-## Pandas-1.ipynb
-    I/O Tools
-    Essentila Basic Functions
-    Indexing and Selectiong Data
-    GroupBy functionality
+### Pandas-1.ipynb
+
+- I/O Tools
+- Essentila Basic Functions
+- Indexing and Selectiong Data
+- GroupBy functionality
     
-## Pandas-2.ipynb
-    Working with missing data
-    Merge,Join and Concatenate functionalities
+### Pandas-2.ipynb
+
+- Working with missing data
+- Merge,Join and Concatenate functionalities
+
+## Machine Learning
   
+### LinearRegresion.ipynb
 
+- Implemeting linear regression to predict house prices based on features such as square foot living
+    
+### LinearRegressionWithCategoricalColumns.ipynb
+
+- Implemeting linear regression to predict house prices based on features such as square foot living AND some categorical features. Includes an example of using dummy and categofical encoders/transformations as part of an sklearn pipeline
+
+### bikeSharing.ipynb
+
+- this is the answer to one of the excercises
+- predicts the number of users for a bikesharing service using features such as the weather, season, whether it's a holiday or not etc.
+
+
+### ClassificationLogisticRegressionAndSVM.ipynb
+- Implements logiscit regression for a toy version of the MNIST dataset (handwriting classifiction). 
+    
+### RandomForest.ipynb
+
+- Uses ranoom forest on the classic titanic dataset. Includes a gridsearch cross validation to identify the optimal tuning parameters.
